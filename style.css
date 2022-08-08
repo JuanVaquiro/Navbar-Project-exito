@@ -118,6 +118,48 @@ body{
     top: -4px;
     right: -4px;
 }
+/* secudary navbar */
+.sub{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.cart-item-nav, .cart-item-nav-focus{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    border-radius: 10px 10px 0 0;
+    color: rgb(0 0 0);
+    font-size: 12px;
+    width: 144px;
+    justify-content: end;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.cart-item-nav-focus{
+    background: rgb(103 103 103);
+    color: white;
+}
+.cart-item-nav:hover{
+    background: rgb(103 103 103);
+    color: white;
+}
+
+.item-nav{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-line-focus{
+    background: rgb(255 232 0);
+    height: 5px;
+    border-radius: 4px 4px 0 0;
+    width: 105px;
+    margin-top: 5px;
+}
 
 .whasa_app-float {
     position: fixed;
@@ -133,7 +175,6 @@ body{
     z-index: 100;
 }
 
-
 /* section container */
 .contianer-main-section{
     /* width: 100px; */
@@ -141,12 +182,6 @@ body{
     height: 46px;
     display: flex;
     justify-content: space-between;
-}
-
-.sub{
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
 }
 
 .sub-conter-main-section{
